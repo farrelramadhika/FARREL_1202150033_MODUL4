@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="15dp"
+    android:paddingBottom="15dp"
+    android:orientation="vertical"
+    tools:context="com.example.android.farrel_1202150033_modul4.ListNamaActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="List Nama Mahasiswa"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/Mulai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mulai AsyncTask"
+        android:textColor="@color/colorPrimary"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <ListView
+        android:id="@+id/listNama"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

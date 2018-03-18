@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.farrel_1202150033_modul4.MainActivity">
+
+
+    <TextView
+        android:id="@+id/Menu"
+        android:textSize="25dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/colorAccent"
+        android:text="MENU" />
+
+    <Button
+        android:id="@+id/listNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/colorPrimary"
+        android:text="List Nama Mahasiswa"
+        android:onClick="listNamaMahasiswa"/>
+
+    <Button
+        android:id="@+id/cariGambar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/colorPrimary"
+        android:text="Pencari Gambar"
+        android:onClick="pencarianGambar"/>
+</LinearLayout>
